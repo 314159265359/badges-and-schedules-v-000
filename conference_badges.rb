@@ -19,5 +19,10 @@ def assign_rooms(name)
 end
 
 def printer
-  puts room_array + badge_array
+  room_array.each do |room|
+    puts room
+  end
+  badge_array.each do |badge|
+    puts badge
+  end
 end
