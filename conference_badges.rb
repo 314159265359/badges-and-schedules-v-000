@@ -9,3 +9,13 @@ def batch_badge_creator(array)
   end
   badge_array
 end
+
+def assign_rooms(name,room)
+  #array_index = name.count
+  counter = 0
+  room_array = []
+  while counter < name.count
+    room_array << "Hello, #{name[counter]}! You'll be assigned to room #{room[counter]}!"
+  end
+  room_array
+end
