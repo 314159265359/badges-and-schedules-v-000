@@ -19,10 +19,12 @@ def assign_rooms(name)
 end
 
 def printer
-  assign_rooms.each do |room|
+  rooms = assign_rooms(name)
+  rooms.each do |room|
     puts room
   end
-  batch_badge_creator.each do |badge|
+  badges = batch_badge_creator(array)
+  badges.each do |badge|
     puts badge
   end
 end
