@@ -18,3 +18,6 @@ def assign_rooms(name)
   room_array
 end
 
+def printer
+  puts room_array + badge_array
+end
