@@ -11,7 +11,6 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(name)
-  #array_index = name.count
   counter = 0
   room_array = []
   while counter < name.count
