@@ -18,7 +18,7 @@ def assign_rooms(name)
   room_array
 end
 
-def printer
+def printer(attendees)
   rooms = assign_rooms(name)
   rooms.each do |room|
     puts room
